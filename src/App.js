@@ -7,8 +7,17 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <Router >
-      
+
+    <Router>
+      <Container>
+      <Row>
+        <Col md={12} className="text-center">
+            <h1>Get A Job</h1>
+        </Col>
+        
+      </Row>
+      <hr/>
+      </Container>
     </Router>
   );
 }
